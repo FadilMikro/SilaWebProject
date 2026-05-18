@@ -80,7 +80,7 @@ h3 {
    di tengah halaman (margin: 0 auto).
    -------------------------------- */
 .container {
-    max-width: 1000px;
+    max-width: 1400px;
     margin: 0 auto;
     /* tengah horizontal */
     padding: 0 24px;
@@ -551,4 +551,77 @@ max widt 768px(berlaku untukj layar yg lebarnya  <=768px) */
 
 .hero,.hero-layanan,.hero-riwayat{
     animation: fateIn 0.8s ease;
+}
+
+/* Layanan */
+
+.form-card {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+fieldset{
+    border: 1 solid #334155;
+    border-radius: 12px;
+    padding: 24px;
+    background-color: #1e293b;
+}
+
+legend{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #f1f5f9;
+    padding: 0 8px;
+}
+
+.formlayanan{
+    margin-bottom: 16px;
+}
+
+.formlayanan label{
+    display: block;
+    font-size: 0.87rem;
+    font-weight: 600;
+    color: #f0e2e2;
+    margin-bottom: 6px;
+}
+
+.formlayanan input, select, textarea{
+    width: 100%;
+    padding: 10px 14px;
+    background-color: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    color: #e2e8f0;
+    font-size: 0.9rem;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.formlayanan input:focus, select:focus, textarea:focus{
+    border-color: #1d4ed8;
+}
+
+.formrow{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.formbtn {
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.formbtn .btn{
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+}
+
+.formbtn .btn-outline{
+    border: 1px solid #334155;
+    background: none;
 }
